@@ -12,8 +12,10 @@ package modelo;
 public class Ambulancia extends Recurso{
     private int numero;
     
-    public Ambulancia(){
+    public Ambulancia(int numero){
         super();
+        this.numero=numero;
     }
     
 }
+
